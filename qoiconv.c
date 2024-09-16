@@ -25,9 +25,8 @@ Compile with:
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
 
-#define QOI_IMPLEMENTATION
 #include "qoi.h"
-
+#include "qoi_io.h"
 
 #define STR_ENDS_WITH(S, E) (strcmp(S + strlen(S) - (sizeof(E)-1), E) == 0)
 

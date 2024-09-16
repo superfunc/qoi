@@ -24,11 +24,7 @@ Compile with:
 #define STB_IMAGE_WRITE_IMPLEMENTATION
 #include "stb_image_write.h"
 
-#define QOI_IMPLEMENTATION
 #include "qoi.h"
-
-
-
 
 // -----------------------------------------------------------------------------
 // Cross platform high resolution timer
